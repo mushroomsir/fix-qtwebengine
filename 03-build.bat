@@ -17,7 +17,7 @@ SET PATH=C:\OpenSSL-Win32\bin;%PATH%
 
 cd %_ROOT%
 
-call configure -opensource -confirm-license -prefix ../dist -platform win32-msvc2015 -release -opengl dynamic -no-qml-debug -feature-proprietary-codecs -no-feature-spellchecker -no-feature-pepper-plugins -nomake examples -nomake tests
+call configure -opensource -confirm-license -prefix ../dist -platform win32-msvc -release -opengl dynamic -no-qml-debug -feature-proprietary-codecs -no-feature-spellchecker -no-feature-pepper-plugins -nomake examples -nomake tests
 
 nmake module-qtwebengine
 
